@@ -1,7 +1,9 @@
-# Powershell-pwd-dump
+# Windows Powershell-pwd-dump
 # This requires Invoke-Mimikatz.
 
 # Read setup.txt
+Works on Windows 8.1 and below
+
 I do not own Mimikatz.
 This is an alternative to using a Rubber Ducky, Bad USB, etc..
 
