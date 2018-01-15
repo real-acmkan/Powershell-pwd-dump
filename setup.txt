@@ -1,0 +1,17 @@
+Copyright (c) 2018 Real_acmkan
+
+How to Use:
+*Setup*
+A webserver is reqired to host invoke-mimikatz and receive.php
+to accept the POST request sent from pwd_dumper.bat
+This way the creds are saved to an external location and you can
+run it remotely from a regular USB.
+
+Modify pwd_dumper.bat and change both 'enter_server_address"
+entries to the webserver address you are using. The first one being
+the location of where you saved Invoke-Mimikatz, and the second the
+location of receive.php
+
+**Usage**
+Execute the .bat file as an administrator.
+That's it!
